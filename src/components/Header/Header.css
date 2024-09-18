@@ -1,0 +1,27 @@
+.header{
+    background-color: black;
+    display: flex;
+    height: 50px;
+    align-items: center;
+}
+
+.header__nav>ul>li{
+    display: flex;
+    color: white;
+    list-style: none;
+}
+
+.header__nav>ul{
+    display: flex;
+    gap: 30px;
+    margin-top: 10px;
+}
+
+.header__nav>ul>li>a {
+    color: white;  /* Đảm bảo link có màu trắng */
+    text-decoration: none;
+}
+
+.header__nav>ul>li>a:hover{
+    color:yellow;
+}
